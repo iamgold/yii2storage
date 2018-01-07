@@ -1,0 +1,21 @@
+{
+    "name": "iamgold/yii2strage",
+    "description": "This is a file system adapter for Gaufrette in Yii2 that allows you to access files which in different medias.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Eric Huang",
+            "email": "iamgold0105@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0.13",
+        "knplabs/gaufrette": "^0.5.0",
+        "gaufrette/aws-s3-adapter": "^0.4.0",
+        "aws/aws-sdk-php": "^3.48"
+    },
+    "autoload": {
+        "psr-4": {"iamgold\\yii2storage\\": "src/"}
+    }
+}
